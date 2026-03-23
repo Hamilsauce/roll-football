@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Roll Football",
-    "slug": "roll-football-game",
+    "slug": "roll-football",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,7 +26,11 @@
       "package": "com.rollfootball.game"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "experiments": {
+      "baseUrl": "/roll-football"
     }
   }
 }
